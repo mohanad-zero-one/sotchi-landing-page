@@ -1,10 +1,11 @@
+import logo from '../assets/sotchi/logo/sootchi-logo.jpeg.jpeg'
 function Navbar(){
     return (
         <header className="navbar">
             <div className="nabar-container">
 
                 <a href="#" className="logo">
-                    SOTCHI
+                    <img src={logo} alt="Sotchi Kids Wear" />
                     </a>
 
             <nav className="nav-links">   
